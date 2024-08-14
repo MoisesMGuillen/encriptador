@@ -25,7 +25,25 @@ JavaScript<br>
 4. Al elegir reset todo regresa al estado inicial, pudiendo agregar un nuevo texto desde cero.<br>
 
 <p>
+ 
+**Reglas de encriptación**
+</p>
+La letra "e" es convertida para "enter"<br>
+La letra "i" es convertida para "imes"<br>
+La letra "a" es convertida para "ai"<br>
+La letra "o" es convertida para "ober"<br>
+La letra "u" es convertida para "ufat"<br>
+Por ejemplo:<br>
+"gato" ==> "gaitober"<br>
+"gaitober" ==> "gato"
+<p>
 
   **Autor**
 </p>
-Desarrollado por: Moises Morales Guillen. Contacto en linkedin:www.linkedin.com/in/morales-guillen-moises
+Desarrollado por: Moises Morales Guillen. Contacto en linkedin:www.linkedin.com/in/morales-guillen-moises<br>
+
+<p>
+
+ **Agradecimientos**
+</p>
+Mis sinceros agradecimientos a los chicos detrás del proyecto de 98.css, ¡sus diseños fueron esenciales para la estética de la pagina!. El sitio es: https://jdan.github.io/98.css/
