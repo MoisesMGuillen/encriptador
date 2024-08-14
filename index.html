@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+</head>
+<body class="body">
+    <!--Header-->
+
+    <header class="header">
+        <img class="alura_logo" src="styles/alura-removebg-preview.png" alt="alura logo" >
+    </header>
+
+    <div class="mensaje">
+        <div>
+            Activate Windows
+        </div>
+        <div>
+            Go to Settings to Activate Windows.
+        </div>
+    </div>   
+
+    <!--Main-->
+    <main class="presentacion">
+        <section class="parteIzquierda">
+            <div class="window areaTexto">
+                <div class="title-bar">
+                  <div class="title-bar-text">Tu texto</div>
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="window-body">
+
+                 <textarea autofocus class="cuadroTexto" placeholder="Introduce tu texto aquí." id="inputEncript" innertext="" ></textarea>
+                 <br><br>
+                <div class="botones">
+                    <button id="botonEncript" disabled>Encriptar</button>
+                    <button id="botonDecript" disabled>Desencriptar</button>
+                </div>
+                </div>
+            </div>
+        <div class="window advertencia">
+            <div class="title-bar">
+              <div class="title-bar-text">¡Advertencia!</div>
+            </div>
+            <div class="window-body">
+            <label for="inputEncript"> <strong>Solo funciona con minúsculas y sin acentos.</strong> </label>
+            </div>
+        </div>
+        </section>
+        <section class="parteDerecha">
+            <div class="window areaTexto" >
+                <div class="title-bar">
+                  <div class="title-bar-text">Encriptador</div>
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="window-body">
+                    <section class="primerContenido">
+                        <textarea class="cuadroTexto" placeholder="Ningun texto fue escrito" id="output" disabled>
+                            
+                        </textarea>
+                        <br><br>
+                        <div class="botones">
+                        <button id="botonCopiar" disabled>Copiar</button>
+                        <button id="botonReset" disabled>Resetear</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <img class="moy_logo" src="styles/moy.png" alt="Moy logo" >     
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
